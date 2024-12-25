@@ -7,7 +7,6 @@ const express= require("express");
 const app= express();
 const mongoose = require("mongoose");
 const path= require("path");
-const gOPD = require('./gOPD');
 
 
 const dbUrl= process.env.ATLASDB_URL;
